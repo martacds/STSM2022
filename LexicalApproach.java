@@ -8,7 +8,6 @@ public class CandidateOntologies {
 		// load ontologies
 		Ontology src = OntologyReader.parseInputOntology(args[0]); // hp
 		Ontology tgt = OntologyReader.parseInputOntology(args[1]); // other
-		//  
 
 		set.defaultConfig(src, tgt);
 		// extenders
